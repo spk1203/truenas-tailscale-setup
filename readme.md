@@ -18,7 +18,7 @@ Setting up Tailscale on TrueNAS CORE can be painful due to FreeBSD quirks. These
 ---
 
 ## Quick Install (One-Liner)
-If you just want subnet routing for `192.168.29.0/24`:
+If you just want subnet routing for `your IP`:
 ```bash
-fetch https://raw.githubusercontent.com/YOUR_GITHUB/truenas-tailscale-setup/main/quick_install.sh
+fetch https://raw.githubusercontent.com/spk1203/truenas-tailscale-setup/main/quick_install.sh
 sh quick_install.sh
